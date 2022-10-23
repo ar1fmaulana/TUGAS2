@@ -1,0 +1,123 @@
+html,
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg,#ff9fff 0%, #ff9fff 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #821515;
+}
+
+.nav_ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+.nav_li>a {
+    text-decoration: none;
+    color: #821515;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.nav_li::after {
+    content: '';
+    width: 0rem;
+    height: 0.250rem;
+    background-color: #821515;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_li:hover::after {
+    width: 2rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: #ff9fff;
+    color: #821515;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.listing {
+    background-color: #fff;
+    padding: 10px 50px;
+    margin: 30px auto;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+input[type='password'],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    -webkit-text-stroke: 1px #ff9fff;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #821515;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+
+.SEBO {
+    background-color:;
+}
